@@ -22,7 +22,7 @@ app.layout = html.Div([
                 go.Scatter(
                     x=df[df['sex'] == i]['age'],
                     y=df[df['sex'] == i]['home.dest'],
-                    text= "Name: " + df[df['sex'] == i]['name'] + ", Ticket: " + df[df['sex'] == i]['ticket'],
+                    text="Name: " + df[df['sex'] == i]['name'] + ", Ticket: " + df[df['sex'] == i]['ticket'],
                     mode='markers',
                     opacity=0.7,
                     marker={
